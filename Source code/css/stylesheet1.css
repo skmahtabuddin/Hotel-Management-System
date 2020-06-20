@@ -1,0 +1,86 @@
+*{
+	margin: 0px;
+}
+body{
+	font-family: 'Noto Serif', serif;
+}
+.container-alternateLogin{
+	margin: 0px;
+}
+.container-alternateLogin a{
+	text-decoration: none;
+	float:right; 
+}
+.container-alternateLogin img{
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+}
+.container-alternateLogin p{
+	color: white;
+	float: right;
+	font-size: 19px;
+}
+.container-login{
+	width: 400px;
+	height: 400px;
+	background-color: #f0f4f0;
+	border-radius: 18px;
+	opacity: 0.8;
+	margin: 7% auto;
+	box-shadow: 0px 0px 62px #fff;
+}
+.container-login:hover{
+	color: #f0f4f0;
+	background-color: #f0f4f0;
+	transition: 1s;
+	opacity: 1;
+}
+.container-login, h3{
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 20;
+	color: black;
+}
+.login-section{
+	padding: 10px 10px;
+}
+.login-section img{
+	width: 140px;
+	height: 140px;
+	display: block;
+	margin: 0 auto;
+}
+.form-control{
+	width: 85%;
+	padding: 10px;
+	border-radius: 3px;
+	border:2px solid #333;
+	margin-bottom: 20px;
+}
+.login-button{
+	background-color: wheat;
+    padding: 7px 34px;
+    border-radius: 22px;
+    font-size: 15px;
+    color: black;
+    border:1px solid black;
+    transition: 0.5s;
+}
+.login-button:hover{
+	cursor: pointer;
+	background-color: black;
+	color: #fff;
+}
+.login-section p{
+	font-size: 13px;
+}
+.login-section a{
+	text-decoration: none;
+	float: left;
+	color: black;	
+}
+.login-section a:hover{
+	color: #880000;
+}
